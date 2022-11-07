@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="header">
+	<div class="logo"></div>
+	<div class="header-top">
+		<div class="heading">
+			<h2>Musicians Network Center</h2>
+		</div>
+	</div>
+	<div class="navigation-bar">
+		<div class="nav-bar">
+			<ul>
+				<li><a href="#">Directory</li></a>
+				<li><a href="#">Events</li></a>
+				<li><a href="#">Artist Video</li></a>
+				<li><a href="#">Browse</li></a>
+				<li><a href="#">Search</li></a>
+			</ul>
+		</div>
+
+		<div class="account-link">
+			<ul>
+				<li><a href="">Login</li></a>
+				<li><a href="">Sign Up</li></a>
+			</ul>
+		</div>
+
+			<!-- Mobile Navigation -->
+	<div class="mobile-navigation">
+		<div class="toggle-btn">
+			<i class="fa fa-bars"></i>
+		</div>
+
+		<div class="mobile-nav">
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>Service</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Blog</li></a>
+				<a href="#"><li>Sign In</li></a>
+			</ul>
+		</div>
+	</div>
+	<!-- Mobile Navigation Ends -->
+	</div>
+</div>
+
+<div class="page-content">
+
+	<div class="left">
+		<div class="ad"></div>
+	</div>
+
+	<div class="center">
+		<div class="content">
+			<p>Whether you are unknown artist or well known muscian. The Musicians Network Center opens its window of opportunities
+			</p>
+		</div>
+
+		<div class="video">
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/eUl7NL8zRm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+		<div class="content-box">
+			<div class="box-left">
+				<div class="box-heading">
+					<h2>Manage</h2>
+				</div>
+
+				<div class="box-content">
+					<ul>
+						<li>Profile presentation</li>
+						<li>Career Archiving</li>
+						<li>Music Showcasing</li>
+						<li>Organize</li>
+					</ul>
+				</div>
+			</div>
+			<div class="box-center">
+				<div class="box-heading">
+					<h2>Manage</h2>
+				</div>
+
+				<div class="box-content">
+					<ul>
+						<li>Profile presentation</li>
+						<li>Career Archiving</li>
+						<li>Music Showcasing</li>
+						<li>Organize</li>
+					</ul>
+				</div>
+			</div>
+			<div class="box-right">
+				<div class="box-heading">
+					<h2>Manage</h2>
+				</div>
+
+				<div class="box-content">
+					<ul>
+						<li>Profile presentation</li>
+						<li>Career Archiving</li>
+						<li>Music Showcasing</li>
+						<li>Organize</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="right">
+		<div class="heading">Musician's Directory</div>
+		<div class="content">
+			<ul>
+				<li>Vocalist</li>
+				<li>Drummers</li>
+				<li>Bassists</li>
+				<li>Keyboardists</li>
+				<li>Guiterists</li>
+				<li>Woodwinds</li>
+				<li>Percussionists</li>
+			</ul>
+
+			<form>
+				<input type="text" placeholder="Type Instrument" name="">
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$(".toggle-btn").click(function()
+		{
+			$(".mobile-nav").slideToggle(1000)
+		})
+
+	});
+</script>
