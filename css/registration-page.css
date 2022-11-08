@@ -435,6 +435,20 @@ body
 	    color: #ddd;
 	    text-decoration: none;
 	}
+
+	.footer .inner-footer .left 
+	{
+	    width: 50%;
+	    height: inherit;
+	    float: left;
+	}
+
+	.footer .inner-footer .center 
+	{
+	    width: 30%;
+	    height: inherit;
+	    float: left;
+	}
 }
 @media screen and (max-width: 768px)
 {
@@ -489,7 +503,40 @@ body
 
 	.footer
 	{
-		display: none;
+		width: 100%;
+		height: 100px;
+		background-color: #071c2f;
+	}
+
+	.footer .inner-footer 
+	{
+	    width: 95%;
+	    height: 70px;
+	    background-color: hsl(24deg 100% 43%);
+	    margin-left: 20px;
+	    position: relative;
+	    top: 15px;
+	    border-radius: 10px;
+	    color: white;
+	}
+
+	.footer .inner-footer .left 
+	{
+	    width: 50%;
+	    height: inherit;
+	    float: left;
+	    font-size: 13px;
+	}
+
+	.footer .inner-footer .center 
+	{
+	    width: 30%;
+	    height: inherit;
+	    float: left;
+	}
+	.footer .inner-footer .right 
+	{
+	    font-size: 13px;
 	}
 	
 }
@@ -553,6 +600,83 @@ body
 	{
 		margin-left: 40px;
 	}
+
+	.page-content .left .post-form 
+	{
+	    width: 90%;
+	    height: 780px;
+	    margin-top: 50px;
+	    margin-left: 0px;
+	}
+
+	.page-content .left .post-form form 
+	{
+	    margin-left: 12px;
+	}
+
+	.page-content .left .post-form form input 
+	{
+	    width: 55%;
+	    padding: 5px;
+	}
+
+		.page-content .right .create-form 
+	{
+	    width: 90%;
+	    height: 780px;
+	    margin-top: 50px;
+	    margin-left: 0px;
+	    margin-bottom: 10px;
+	}
+
+	.page-content .right .create-form form 
+	{
+	    margin-left: 12px;
+	}
+
+	.page-content .right .create-form form input 
+	{
+	    width: 55%;
+	    padding: 5px;
+	}
+
+	.footer
+	{
+		width: 100%;
+		height: 100px;
+		background-color: #071c2f;
+	}
+
+	.footer .inner-footer 
+	{
+	    width: 95%;
+	    height: 70px;
+	    background-color: hsl(24deg 100% 43%);
+	    margin-left: 10px;
+	    position: relative;
+	    top: 15px;
+	    border-radius: 10px;
+	    color: white;
+	}
+
+	.footer .inner-footer .left 
+	{
+	    width: 65%;
+	    height: inherit;
+	    float: left;
+	    font-size: 11px;
+	}
+
+	.footer .inner-footer .center 
+	{
+	    width: 10%;
+	    height: inherit;
+	    float: left;
+	}
+	.footer .inner-footer .right 
+	{
+	    font-size: 11px;
+	}
 }
 
 @media screen and (max-width: 375px)
@@ -580,6 +704,106 @@ body
 	{
 		font-size: 12px;
 	}
+
+	.page-content .left .post-form form input 
+	{
+	    width: 45%;
+	    padding: 5px;
+	}
+
+	.page-content .left .post-form 
+	{
+	    width: 100%;
+	    height: auto;
+	    margin-top: 50px;
+	    margin-left: 0px;
+	}
+
+	.page-content .left .post-form .heading p 
+	{
+	    font-size: 16px;
+	}
+	.page-content .left .post-form .heading span 
+	{
+	    font-size: 22px;
+	    margin: 0px 10px;
+	    color: #dd4156;
+	}
+	.page-content .left .post-form .heading .para 
+	{
+	    font-size: 14px;
+	}
+	.page-content .left .post-form form 
+	{
+	    margin-left: 5px;
+	}
+	.page-content .left .post-form form label 
+	{
+	    width: 120px;
+	    text-align: right;
+	    display: inline-block;
+	    font-size: 15px;
+	}
+
+	.page-content .right .create-form form input 
+	{
+	    width: 45%;
+	    padding: 5px;
+	}
+
+	.page-content .right .create-form 
+	{
+	    width: 100%;
+	    height: auto;
+	    margin-top: 30px;
+	    margin-left: 0px;
+	}
+
+	.page-content .right .create-form .heading p 
+	{
+	    font-size: 16px;
+	}
+	.page-content .right .create-form .heading span 
+	{
+	    font-size: 22px;
+	    margin: 0px 10px;
+	    color: #dd4156;
+	}
+	.page-content .right .create-form .heading .para 
+	{
+	    font-size: 14px;
+	}
+	.page-content .right .create-form form 
+	{
+	    margin-left: 5px;
+	}
+	.page-content .right .create-form form label 
+	{
+	    width: 120px;
+	    text-align: right;
+	    display: inline-block;
+	    font-size: 15px;
+	}
+
+	.footer .inner-footer .left 
+	{
+	    width: 70%;
+	    font-size: 9px;
+	}
+	.footer .inner-footer .center 
+	{
+	    width: 0%;
+	    height: inherit;
+	    float: left;
+	}
+
+	.footer .inner-footer .right 
+	{
+	    width: 30%;
+	    height: inherit;
+	    float: left;
+	    font-size: 9px;
+	}
 }
 
 @media screen and (max-width: 320px)
@@ -596,5 +820,20 @@ body
 	.header-top .heading
 	{
 		width: 50%;
+	}
+
+	.page-content .left .post-form form label 
+	{
+	    width: 120px;
+	    text-align: right;
+	    display: inline-block;
+	    font-size: 13px;
+	}
+	.page-content .right .create-form form label 
+	{
+	    width: 120px;
+	    text-align: right;
+	    display: inline-block;
+	    font-size: 13px;
 	}
 }
