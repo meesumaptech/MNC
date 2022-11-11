@@ -1,0 +1,538 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body
+{
+	max-width: 1440px;
+	margin: auto;
+}
+.header
+{
+	width: 100%;
+	height: 150px;
+	background-color: black;
+}
+
+.header .header-top
+{
+	width: 100%;
+	height: 100px;
+	background-color: hsl(232deg 45% 6%);
+	background-image: url("../images/musicbg.jpg");
+	background-blend-mode: color;
+	background-size: cover;
+}
+
+.logo
+{
+	width: 20%;
+	height: inherit;
+	position: absolute;
+	margin-left: 7%;
+	background-image: url('../images/logo.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header-top .heading
+{
+	width: 40%;
+	height: inherit;
+	float: right;
+}
+.heading h2
+{
+	font-size: 32px;
+	line-height: 150px;
+	text-align: center;
+	color: #ddd;
+}
+.navigation-bar
+{
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(#171760,#000);
+}
+.nav-bar
+{
+	width: 70%;
+	height: inherit;
+	
+	float: left;
+}
+
+.navigation-bar .nav-bar ul
+{
+	list-style: none;
+	margin-left: 295px;
+}
+
+.navigation-bar .nav-bar ul li
+{
+	float: left;
+	margin-top: 20px;	
+	font-weight: bold;
+	font-size: 20px;
+	/*margin-right: 20px;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #ddd; 
+    line-height: 15px; 
+    color: #ddd;
+    text-decoration: none;
+}
+
+.navigation-bar .nav-bar ul li a
+{
+	text-decoration: none;
+	color: #ddd;
+}
+
+.navigation-bar .nav-bar ul li:nth-last-child(1)
+{
+	border: none;
+}
+.account-link
+{
+	width: 30%;
+	height: inherit;
+	float: right;
+}
+
+.navigation-bar .account-link ul
+{
+	list-style: none;
+	margin-left: 120px;
+}
+
+.navigation-bar .account-link ul li 
+{
+	float: left;
+	margin-top: 20px;	
+	font-weight: bold;
+	font-size: 15px;
+	/*margin-right: 20px;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #ddd; 
+    line-height: 15px; 
+    color: #ddd;
+}
+
+.navigation-bar .account-link ul li:nth-last-child(1)
+{
+	border: none;
+}
+
+.navigation-bar .account-link ul li a
+{
+	text-decoration: none;
+	color: #ddd;
+}
+
+.mobile-navigation
+{
+	width: 100%;
+	height:  inherit;
+
+	display: none;
+}
+
+.toggle-btn
+{
+	width: 70px;
+	height: inherit;
+	margin-left: 15px;
+	background-color: #dd4156;
+}
+.toggle-btn i
+{
+	font-size: 30px;
+	color: white;
+	margin-left: 22px;
+	margin-top: 10px;
+}
+.mobile-nav
+{
+	width: 300px;
+	height: 400px;
+	background-color: #09253d;
+	z-index: 1;
+	position: absolute;
+	display: none;
+}
+.mobile-nav ul
+{
+	list-style: none;
+}
+
+.mobile-nav ul a li
+{
+	padding: 10px 0px 10px 25px;
+	font-size: 17px;
+	background-color: #071c2f;
+	margin-top: 8px;
+	color: white;
+	transition: 0.3s;
+}
+
+.mobile-nav ul a 
+{
+	text-decoration: none;
+}
+
+.mobile-nav ul a li:hover 
+{
+	background-color: #dd4156;
+	transition: 0.3s;
+}
+
+.page-content
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.page-content .heading-info
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.page-content .heading-info p
+{
+	width: 90%;
+	height: auto;
+	padding-top: 10px;
+	font-size: 1.4vw;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+.membership-section
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.membership {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.membership .left
+{
+	width: 18%;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.membership .left button
+{
+	width: 120px;
+	font-size: 14px;
+}
+
+.membership .right
+{
+	width: 80%;
+	height: inherit;
+	background-color: #ededed;
+	padding: 10px;
+}
+
+.membership .right table
+{
+	width: 100%;
+}
+
+.form-section
+{
+	width: 100%;
+	height: 600px;
+	background-color: red;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form
+{
+	width: 95%;
+	height: 570px;
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-between;
+}
+.form .billing
+{
+	width: 30%;
+	height: inherit;
+	background-color: yellow;
+}
+
+.form .payment
+{
+	width: 69%;
+	height: inherit;
+	background-color: green;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 1024px)
+{
+	.heading h2
+	{
+		font-size: 26px;
+	}
+
+}
+@media screen and (max-width: 1024px)
+{
+	.navigation-bar .nav-bar ul
+	{
+		list-style: none;
+   		margin-left: 25%;
+	}
+
+	.navigation-bar .nav-bar ul li
+	{
+		float: left;
+		margin-top: 20px;	
+		font-weight: bold;
+		font-size: 17px;
+		/*margin-right: 20px;*/
+		padding-left: 15px;
+		padding-right: 15px;
+		border-right: 1px solid #ddd; 
+	    line-height: 13px; 
+	    color: #ddd;
+	    text-decoration: none;
+	}
+
+	.box-content
+	{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.header
+	{
+		height: 100px;
+	}
+	.header .header-top
+	{
+		height: 60px;
+	}
+	.heading h2
+	{
+		line-height: 80px;
+		font-size: 20px;
+	}
+
+	.navigation-bar .nav-bar
+	{
+		display: none;
+	}
+
+	.navigation-bar .account-link
+	{
+		width: 40%;
+	}
+	.navigation-bar .account-link ul
+	{
+		margin-left: 80px;
+	}
+	.page-content .heading-info p
+	{
+		font-size: 2vw;
+	}
+
+	.membership-section
+	{
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.membership {
+	    width: 90%;
+	    height: auto;
+	    display: flex;
+	    justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.membership .left
+	{
+		width: 100%;
+		height: inherit;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: center;
+
+	}
+	.membership .left button
+	{
+		width: 120px;
+		font-size: 14px;
+		margin-left: 10px;
+	}
+
+	.membership .right
+	{
+		width: 100%;
+		height: inherit;
+		background-color: #ededed;
+		padding: 10px;
+	}
+
+	.membership .right table
+	{
+		width: 100%;
+		font-size: 13px;
+	}
+	.membership .right table td h4
+	{
+		font-size: 18px;
+	}
+	.col1
+	{
+		width: 150px !important;
+	}
+
+}
+
+@media screen and (max-width: 780px)
+{
+	.nav-bar
+	{
+		display: none;
+	}
+
+	.mobile-navigation
+	{
+		display: block;
+	}
+
+	.navigation-bar .nav-bar ul li
+	{
+		float: left;
+		margin-top: 20px;	
+		font-weight: bold;
+		font-size: 17px;
+		/*margin-right: 20px;*/
+		padding-left: 15px;
+		padding-right: 15px;
+		border-right: 1px solid #ddd; 
+	    line-height: 13px; 
+	    color: #ddd;
+	    text-decoration: none;
+	}
+}
+@media screen and (max-width: 425px)
+{
+	.header
+	{
+		height: 100px;
+	}
+	.header .header-top
+	{
+		height: 60px;
+	}
+	.heading h2
+	{
+		line-height: 80px;
+		font-size: 15px;
+	}
+	.header-top .heading
+	{
+		width: 50%;
+	}
+	.logo
+	{
+		width: 30%;
+	}
+
+	.navigation-bar .account-link
+	{
+		width: 50%;
+	}
+	.navigation-bar .account-link ul
+	{
+		margin-left: 40px;
+	}
+	.page-content .heading-info p
+	{
+		padding-top: 5px;
+		font-size: 3vw;
+	}
+
+}
+
+@media screen and (max-width: 375px)
+{
+	.heading h2
+	{
+		line-height: 80px;
+		font-size: 13px;
+	}
+	.header-top .heading
+	{
+		width: 50%;
+	}
+
+	.navigation-bar .account-link
+	{
+		width: 50%;
+	}
+	.navigation-bar .account-link ul
+	{
+		margin-left: 10px;
+	}
+
+	.navigation-bar .account-link ul li 
+	{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	.logo
+	{
+		width: 35%;
+	}
+	.heading h2
+	{
+		line-height: 80px;
+		font-size: 11px;
+	}
+	.header-top .heading
+	{
+		width: 50%;
+	}
+	.page-content .heading-info p 
+	{
+	    font-size: 4vw;
+	}
+}
