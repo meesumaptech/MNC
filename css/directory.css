@@ -395,7 +395,7 @@ body
 }
 .slide2
 {
-	background-image: url('../images/midtop.png');
+	background-image: url('../images/slider-1.jpeg');
 	background-size: cover;
 	background-position: center;
 }
@@ -670,6 +670,9 @@ body
 	margin-top: 10px;
 	margin-left: 20px;
 	background-color: hsl(207deg 100% 16%);
+	background-blend-mode: multiply;
+	background-image: url(../images/sidebar.jpeg);
+	background-size: cover;
 }
 
 .page-content .right .content ul
