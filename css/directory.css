@@ -365,11 +365,128 @@ body
 {
 	width: 90%;
 	height: 400px;
-	background-color: red;
 	margin-left: 35px;
+	overflow: hidden;
+}
+
+.slide
+{
+	width: 500%;
+	height: inherit;
+	overflow: hidden;
+  	animation: slider 20s infinite;
+}
+.slide div{
+  width: 20%;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 400px;
+  text-transform: uppercase;
+}
+.slide1
+{
+  	background-image: url('../images/midtop.png');
+	background-size: cover;
+	background-position: center;
+}
+.slide2
+{
 	background-image: url('../images/midtop.png');
 	background-size: cover;
 	background-position: center;
+}
+.slide3
+{
+	background-image: url('../images/midtop.png');
+	background-size: cover;
+	background-position: center;
+}
+.slide4
+{
+  	background-image: url('../images/midtop.png');
+	background-size: cover;
+	background-position: center;
+}
+.slide5
+{
+  	background-image: url('../images/midtop.png');
+	background-size: cover;
+	background-position: center;
+}
+@keyframes slider
+{
+	0%
+	{
+		margin-left: 0;
+	}
+	10%
+	{
+		margin-left: 0;
+	}
+	12%
+	{
+		margin-left: -100%;
+	}
+	22%
+	{
+		margin-left: -100%;
+	}
+	24%
+	{
+		margin-left: -200%;
+	}
+	34%
+	{
+		margin-left: -200%;
+	}
+	36%
+	{
+		margin-left: -300%;
+	}
+	46%
+	{
+		margin-left: -300%;
+	}
+	48%
+	{
+		margin-left: -400%;
+	}
+	58%
+	{
+		margin-left: -400%;
+	}
+	60%
+	{
+		margin-left: -300%;
+	}
+	70%
+	{
+		margin-left: -300%;
+	}
+	72%
+	{
+		margin-left: -200%;
+	}
+	82%
+	{
+		margin-left: -200%;
+	}
+	84%
+	{
+		margin-left: -100%;
+	}
+	94%
+	{
+		margin-left: -100%;
+	}
+	96%
+	{
+		margin-left: 0;
+	}
 }
 
 .page-content .center .profile
